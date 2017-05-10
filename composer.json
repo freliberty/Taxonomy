@@ -19,11 +19,20 @@
             "homepage": "http://github.com/Sylius/Sylius/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/freliberty/Resource.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/freliberty/Translation.git"
+        }
+    ],
     "require": {
         "php": "^5.5.9|^7.0",
-
-        "sylius/resource": "0.17.*",
-        "sylius/translation": "0.17.*"
+        "sylius/resource": "^2.0",
+        "sylius/translation": "^2.0"
     },
     "require-dev": {
         "phpspec/phpspec": "^2.4"
